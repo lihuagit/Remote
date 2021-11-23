@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Form Files\server">
+      <UniqueIdentifier>{b49e3c11-1e03-488e-9f45-1ae899bb7a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\client">
+      <UniqueIdentifier>{0c265d2f-e7f4-4fe6-aec8-43f60515a774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\server">
+      <UniqueIdentifier>{37ba4a6c-f288-4e3a-b196-23d7feb168b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client">
+      <UniqueIdentifier>{7f04620b-4740-48b2-b07a-02dc9b6c5ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\client">
+      <UniqueIdentifier>{eb24acda-947d-4924-86c3-e0aa7bb0f781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\server">
+      <UniqueIdentifier>{b72604f6-e658-44f5-9b8d-958e827829e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="start.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="start.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="start.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="start.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\desk.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\logon.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\myqlabel.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\mywidge.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\popup.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="server\mylabel.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\widget.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="filestream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tpcstream.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\Mouse_act.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="client\client.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\my_hook.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\pos.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\stdafx.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="server\server.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="Sthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="client\desk.h">
+      <Filter>Header Files\client</Filter>
+    </QtMoc>
+    <QtMoc Include="client\logon.h">
+      <Filter>Header Files\client</Filter>
+    </QtMoc>
+    <QtMoc Include="client\myqlabel.h">
+      <Filter>Header Files\client</Filter>
+    </QtMoc>
+    <QtMoc Include="client\mywidge.h">
+      <Filter>Header Files\client</Filter>
+    </QtMoc>
+    <QtMoc Include="client\popup.h">
+      <Filter>Header Files\client</Filter>
+    </QtMoc>
+    <QtMoc Include="server\mylabel.h">
+      <Filter>Header Files\server</Filter>
+    </QtMoc>
+    <QtMoc Include="server\widget.h">
+      <Filter>Header Files\server</Filter>
+    </QtMoc>
+    <QtMoc Include="tpcstream.h">
+      <Filter>Header Files\server</Filter>
+    </QtMoc>
+    <QtMoc Include="client\client.h">
+      <Filter>Header Files\client</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="client\popup.ui">
+      <Filter>Form Files\client</Filter>
+    </QtUic>
+    <QtUic Include="client\logon.ui">
+      <Filter>Form Files\client</Filter>
+    </QtUic>
+    <QtUic Include="client\desk.ui">
+      <Filter>Form Files\client</Filter>
+    </QtUic>
+    <QtUic Include="server\widget.ui">
+      <Filter>Form Files\server</Filter>
+    </QtUic>
+    <QtUic Include="tpcstream.ui">
+      <Filter>Form Files\server</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="filestream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server\Mouse_act.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="receivepos.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="client\my_hook.h">
+      <Filter>Header Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\stdafx.h">
+      <Filter>Header Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="server\server.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="Sthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

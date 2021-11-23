@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>picture/change.png</file>
+        <file>picture/connectNo.png</file>
+        <file>picture/connectYes.png</file>
+        <file>picture/download.png</file>
+        <file>picture/guancha.png</file>
+        <file>picture/kongjian3.png</file>
+        <file>picture/kongjian4.png</file>
+        <file>picture/kongjian5.png</file>
+        <file>picture/loge.png</file>
+        <file>picture/loge2.png</file>
+        <file>picture/no.png</file>
+        <file>picture/up.png</file>
+        <file>picture/yes.png</file>
+        <file>picture/2.1.png</file>
+        <file>picture/back.jpg</file>
+        <file>picture/back2.png</file>
+        <file>picture/back3.png</file>
+        <file>picture/控制选择界面.png</file>
+        <file>picture/连接界面设计.png</file>
+    </qresource>
+</RCC>
